@@ -15,6 +15,17 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+/**
+ * An object, that can be disposed.
+ */
+export interface Disposable {
+    /**
+     * The logic, which frees all resources.
+     */
+    dispose(): any
+}
+
+
 export * from './api';
 export * from './geo';
 export * from './i18';

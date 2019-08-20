@@ -20,9 +20,76 @@
  */
 export interface PackageJSON {
     /**
+     * The author of the package.
+     */
+    author?: string;
+    /**
+     * Required dependencies.
+     */
+    dependencies?: {
+        /**
+         * Module name: version
+         */
+        [name: string]: string;
+    },
+    /**
+     * A description.
+     */
+    description?: string;
+    /**
+     * Dependencies for development.
+     */
+    devDependencies?: {
+        /**
+         * Module name: version
+         */
+        [name: string]: string;
+    },
+    /**
+     * One or more (search) keywords.
+     */
+    keywords?: string[];
+    /**
+     * The main script / application.
+     */
+    main?: string;
+    /**
      * The (internal) name of the package.
      */
     name: string;
+    /**
+     * Indicates if package is provate or not.
+     */
+    'private'?: boolean;
+    /**
+     * A list of one or more scripts.
+     */
+    scripts?: {
+        /**
+         * Build script.
+         */
+        build?: string;
+        /**
+         * Run in development mode.
+         */
+        dev?: string;
+        /**
+         * Run in production mode.
+         */
+        prod?: string;
+        /**
+         * Start script.
+         */
+        start?: string;
+        /**
+         * Test script.
+         */
+        test?: string;
+        /**
+         * Other scripts.
+         */
+        [name: string]: string;
+    };
     /**
      * The version.
      */
