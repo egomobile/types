@@ -15,7 +15,12 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-export * from './api';
-export * from './geo';
-export * from './i18';
-export * from './npm';
+/**
+ * Describes a simple translator function, with support for formatted strings.
+ *
+ * @param {any} key The key.
+ * @param {any[]} [args] A list of arguments for a formatted string.
+ *
+ * @return {string} The translation string.
+ */
+export type FormattedTranslator = (key: any, ...args: any[]) => string;
