@@ -18,7 +18,7 @@
 /**
  * An object, that can be disposed.
  */
-export interface Disposable {
+export interface IDisposable {
     /**
      * The logic, which frees all resources.
      */

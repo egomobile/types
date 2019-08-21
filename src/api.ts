@@ -18,7 +18,7 @@
 /**
  * An API result.
  */
-export interface ApiResult<TData extends any = any> {
+export interface IApiResult<TData extends any = any> {
     /**
      * The result data.
      */

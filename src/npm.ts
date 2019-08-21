@@ -18,7 +18,7 @@
 /**
  * Describes a 'package.json'.
  */
-export interface PackageJSON {
+export interface IPackageJSON {
     /**
      * The author of the package.
      */

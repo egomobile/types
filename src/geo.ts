@@ -18,7 +18,7 @@
 /**
  * Stores geo location.
  */
-export interface GeoLocation {
+export interface IGeoLocation {
     /**
      * The latitide.
      */
