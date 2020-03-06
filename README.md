@@ -1,6 +1,6 @@
 # @egodigital/types
 
-[![npm](https://img.shields.io/npm/v/@egodigital/@egodigital/types.svg)](https://www.npmjs.com/package/@egodigital/@egodigital/types)
+[![npm](https://img.shields.io/npm/v/@egodigital/types.svg)](https://www.npmjs.com/package/@egodigital/types)
 
 A repository of common interfaces, enums and base classes for [TypeScript](https://www.typescriptlang.org/).
 
