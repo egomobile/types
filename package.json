@@ -1,6 +1,6 @@
 {
   "name": "@egodigital/types",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A repository of common interfaces, enums and base classes for TypeScript.",
   "main": "lib/index.js",
   "private": false,
@@ -29,9 +29,7 @@
     "url": "https://github.com/egodigital/types/issues"
   },
   "homepage": "https://github.com/egodigital/types#readme",
-  "dependencies": {
-    "@types/node": "^10.17.17"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@egodigital/tsconfig": "^3.1.1",
     "tslint": "^6.0.0",
