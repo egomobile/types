@@ -1,11 +1,12 @@
 {
   "name": "@egodigital/types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A repository of common interfaces, enums and base classes for TypeScript.",
   "main": "lib/index.js",
   "private": false,
   "scripts": {
-    "build": "(rm -r ./lib || true) && tsc && tsc -d"
+    "build": "(rm -r ./lib || true) && tsc && tsc -d",
+    "doc": "(rm -r ./doc || true) && (typedoc --out ./doc ./src)"
   },
   "repository": {
     "type": "git",
