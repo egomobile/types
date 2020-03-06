@@ -1,6 +1,6 @@
 {
   "name": "@egodigital/types",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A repository of common interfaces, enums and base classes for TypeScript.",
   "main": "lib/index.js",
   "private": false,
