@@ -66,26 +66,6 @@ export interface IPackageJSON {
      */
     scripts?: {
         /**
-         * Build script.
-         */
-        build?: string;
-        /**
-         * Run in development mode.
-         */
-        dev?: string;
-        /**
-         * Run in production mode.
-         */
-        prod?: string;
-        /**
-         * Start script.
-         */
-        start?: string;
-        /**
-         * Test script.
-         */
-        test?: string;
-        /**
          * Other scripts.
          */
         [name: string]: string;

@@ -20,3 +20,7 @@ const PACKAGE_JSON: PackageJSON = JSON.parse(
     fs.readFileSync('./package.json', 'utf8');
 );
 ```
+
+## Documentation
+
+The API documentation can be found [here](https://egodigital.github.io/types/).

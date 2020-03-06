@@ -16,14 +16,34 @@
  */
 
 /**
+ * Describes a constructor.
+ */
+export type Constructor<T extends any = any> = (new (...args: any[]) => T);
+
+/**
  * An object, that can be disposed.
  */
 export interface IDisposable {
     /**
      * The logic, which frees all resources.
      */
-    dispose(): any
+    dispose(): any;
 }
+
+/**
+ * A type, that can be (null) or (undefined).
+ */
+export type Nilable<T extends any = any> = T | null | undefined;
+
+/**
+ * A type, that can be (null).
+ */
+export type Nullable<T extends any = any> = T | null;
+
+/**
+ * A type, that can also be (undefined).
+ */
+export type Optional<T extends any = any> = T | undefined;
 
 
 export * from './api';
