@@ -1,5 +1,5 @@
 {
-    "extends": "@egodigital/tsconfig",
+    "extends": "@egomobile/tsconfig",
     "compilerOptions": {
         "outDir": "lib",
         "keyofStringsOnly": false
